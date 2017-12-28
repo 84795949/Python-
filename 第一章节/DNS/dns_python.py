@@ -35,6 +35,7 @@ def checkip(ip):
 
         r = conn.getresponse()
         getcontent = r.read(15)
+#        print getcontent
 
     finally:
         if getcontent=="<html>\n<meta ht":
