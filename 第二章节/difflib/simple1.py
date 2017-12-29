@@ -25,6 +25,7 @@ text2_lines = text2.splitlines()
 #diff = d.compare(text1_lines, text2_lines)
 #print '\n'.join(list(diff))
 
+
 #生成美观的HTML展示出来,直接运行结果>diff.html，可以用浏览器打开
 d = difflib.HtmlDiff()
 print d.make_file(text1_lines, text2_lines)
